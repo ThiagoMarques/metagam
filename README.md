@@ -1,2 +1,2 @@
 # metagam
-Metagam
+Metagam - GAMA XP 26
