@@ -20,10 +20,15 @@
         </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div id="header" class="mobileNav navbar-toggler">
+            <a class="nav-link" style="color: #aaaaaa;" href="index.php">Home</a>
+        </div>
+        <div id="header" class="mobileNav navbar-toggler">
+        <a class="nav-link" style="color: #aaaaaa;" href="sobre.php">Metagam</a>
+        </div>
+        <div id="header" class="mobileNav navbar-toggler">
+        <a class="nav-link" style="color: #aaaaaa;" href="ebook.php">Contato</a>
+        </div>
         <div id="header" class="collapse navbar-collapse">
             <ul class="navMenu navbar-nav">
                 <li class="nav-item">
