@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    </head>
+
+    <body>
+
+        <form>
+            <div class="form-group">
+                <div class="form-group">
+                    <label for="txtnome">Nome</label>
+                    <input type="input" class="form-control" id="txtnome" placeholder="Seu Nome">
+                </div>      
+
+                <label for="exampleInputEmail1">Endereço de email</label>
+                <input type="email" class="form-control" id="txtemail" aria-describedby="emailHelp" placeholder="Seu email">
+                <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+            </div>
+
+    
+            <button type="submit" id="btdownload" class="btn btn-primary">Chamada</button>
+        </form>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script>
+
+                $(document).ready(function(){ 
+                
+                    console.log( "Página carregada" );
+
+                    $('#btdownload').click(function(){ 
+
+
+
+                        var email = $('#txtemail').val();
+                        var nome = $('#txtnome').val();
+
+                        alert(email);
+                        alert(nome);
+
+                        $.ajax({  
+                            url:"controlerCliente.php",  
+                            method:"post",  
+                            data:{varNome: nome, varEmail:email, varIP:'196.969.965.545'},  
+                            beforeSend: function(){                  
+                            
+
+                            },                    
+                            success:function(data){  
+
+                                alert(data);                  
+                                
+                                
+                            },
+                            error: function(data) {
+                                alert(data);    
+                            
+                            }  
+                        });      
+
+                    });
+                });
+
+        </script>
+    </body>
+
+</html>
