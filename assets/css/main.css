@@ -59,3 +59,8 @@
 		font-size: 35px;
 		margin: 35px;
 	}
+	img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+	  }
