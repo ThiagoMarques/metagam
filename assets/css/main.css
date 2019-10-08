@@ -28,7 +28,7 @@
 		color: #aaaaaa;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.8em;
-		background-color: #4d0a86;
+		background-color: #361f70;
 		font-weight: 400;
 		letter-spacing: 0.25em;
 		text-transform: uppercase;
@@ -39,9 +39,8 @@
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 1em;
 		font-weight: 400;
-		letter-spacing: 0.25em;
-		line-height: 2.5;
-		margin-top: -1em;
+		letter-spacing: 0.15em;
+		line-height: 3.5;
 		text-transform: uppercase;
 	}
 	.mobileNav {
@@ -87,4 +86,4 @@
 		display: block;
 		max-width: 100%;
 		height: auto;
-	  }
+	}

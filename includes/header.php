@@ -6,7 +6,7 @@
     <title>Blog Metagam</title>
     <meta charset="utf-8">
     <link rel="icon" href="assets/images/icon.png">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     
 </head>
