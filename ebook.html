@@ -38,7 +38,6 @@
                     $('#btdownload').click(function(){ 
 
 
-
                         var email = $('#txtemail').val();
                         var nome = $('#txtnome').val();
 
@@ -48,19 +47,15 @@
                         $.ajax({  
                             url:"controlerCliente.php",  
                             method:"post",  
-                            data:{varNome: nome, varEmail:email, varIP:'196.969.965.545'},  
-                            beforeSend: function(){                  
-                            
-
-                            },                    
+                            data:{varNome: nome, varEmail:email, varIP:'196.969.965.545'},                 
                             success:function(data){  
 
-                                alert(data);                  
+                                alert('Sucesso'+data);                  
                                 
                                 
                             },
                             error: function(data) {
-                                alert(data);    
+                                alert('Erro '+data);    
                             
                             }  
                         });      

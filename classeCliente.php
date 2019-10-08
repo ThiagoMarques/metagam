@@ -25,7 +25,7 @@ class Cliente{
 
         $sql="INSERT INTO bdmetagam.tb_cliente SET dsNome='$dsNome', dsEmail = '$dsEmail', nrIp = '$nrIp', datahoraCadastro = now()";
 
-        msg = "<script>alert('".$sql."')</script>";
+        msg = "<script>alert($sql)</script>";
         print $msg;
 
         $result = mysqli_query($this->db,$sql) or die(mysqli_connect_errno()." Erro ao inserir.");
@@ -37,9 +37,11 @@ class Cliente{
             $retorno = '0;'.$result;
         }
 
-        return $retorno;
+        //return $retorno;
                     
     }
 
         
 }
+
+?>

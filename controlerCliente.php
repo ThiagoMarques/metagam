@@ -1,22 +1,15 @@
 <?php  
-    header('Content-Type: text/html; charset=utf-8');
-
-    include "classeCliente.php";
-
-    $objCliente = new Cliente();
-    
+    include "db.php";
+    $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
+   
     $nome = $_POST["varNome"];
     $email = $_POST["varEmail"];
     $ip = $_POST["varIP"];
 
-    if(strlen($nome) == 0) {
-        $output = $objCliente->inserir($nome, $email, $ip); 
-        msg = "<script>alert('".$output."')</script>";
-        print $msg;
+    $sql="INSERT INTO bdmetagam.tb_cliente SET dsNome='$nome', dsEmail = '$email', nrIp = '$ip', datahoraCadastro = now()";
 
-        //caminho do arquivo no servidor para fazer o download
-    }
-
-    echo $output;
+    $result = mysqli_query($link,$sql) or die(mysqli_connect_errno()." Erro ao inserir.");
+    echo $result;
 
 
+?>
