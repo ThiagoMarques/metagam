@@ -53,4 +53,9 @@
 	.container.sobre-container {
 		margin: none;
 		padding: 0 50px;
-	  }
+	}
+
+	.title-post {
+		font-size: 35px;
+		margin: 35px;
+	}
