@@ -1,3 +1,20 @@
+<?php
+    $ipaddress = '';
+    if (getenv('HTTP_CLIENT_IP'))
+        $ipaddress = getenv('HTTP_CLIENT_IP');
+    else if(getenv('HTTP_X_FORWARDED_FOR'))
+        $ipaddress = getenv('HTTP_X_FORWARDED_FOR');
+    else if(getenv('HTTP_X_FORWARDED'))
+        $ipaddress = getenv('HTTP_X_FORWARDED');
+    else if(getenv('HTTP_FORWARDED_FOR'))
+        $ipaddress = getenv('HTTP_FORWARDED_FOR');
+    else if(getenv('HTTP_FORWARDED'))
+        $ipaddress = getenv('HTTP_FORWARDED');
+    else if(getenv('REMOTE_ADDR'))
+        $ipaddress = getenv('REMOTE_ADDR');
+    else
+        $ipaddress = 'UNKNOWN';
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -79,7 +96,6 @@
 							<i class="fa fa-user-o" aria-hidden="true"></i>
 						</span>
 					</div>
-					
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn" id="btdownload">
 							Sim, eu quero meu ebook !!
@@ -132,14 +148,16 @@
 
 				var email = $('#txtemail').val();
 				var nome = $('#txtnome').val();
+                var ip = <?php echo json_encode($ipaddress); ?>
 
-				alert(email);
-				alert(nome);
+                alert(ip);
+
+				
 
 				$.ajax({
 					url: "controlerCliente.php",
 					method: "post",
-					data: { varNome: nome, varEmail: email, varIP: '196.969.965.545' },
+					data: { varNome: nome, varEmail: email, varIP: ip},
 					success: function (data) {
 
 						alert('Sucesso' + data);
