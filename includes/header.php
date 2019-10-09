@@ -57,7 +57,7 @@
         <a class="nav-link" style="color: #aaaaaa;" href="sobre.php">Metagam</a>
         </div>
         <div id="header" class="mobileNav navbar-toggler">
-        <a class="nav-link" style="color: #aaaaaa;" href="ebook.php">Contato</a>
+        <a class="nav-link" style="color: #aaaaaa;" href="contato.php">Contato</a>
         </div>
         <div id="header" class="collapse navbar-collapse">
             <ul class="navMenu navbar-nav">
@@ -68,7 +68,7 @@
                     <a class="nav-link" href="sobre.php">Metagam</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="ebook.php">Contato</a>
+                    <a class="nav-link" href="contato.php">Contato</a>
                 </li>
             </ul>
         </div>

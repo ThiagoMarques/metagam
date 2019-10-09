@@ -76,13 +76,13 @@
 					<img src="assets/ebook/images/img-01.png" alt="IMG">
 				</div>
 
-				<form class="login100-form validate-form">
+				<form action="enviaremail.php" class="login100-form validate-form" method="post">
 					<span class="login100-form-title">
 						Descubra como criar seu site e-commerce hoje mesmo
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Informe um e-mail válido">
-						<input class="input100" type="text" name="email" placeholder="Email" id="txtemail">
+						<input class="input100" type="text" name="txtEmail" placeholder="Email" id="txtEmail">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -90,7 +90,7 @@
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Informe um nome">
-						<input class="input100" type="text" name="pass" placeholder="Nome" id="txtnome">
+						<input class="input100" type="text" name="txtNome" placeholder="Nome" id="txtNome">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-user-o" aria-hidden="true"></i>
@@ -146,26 +146,18 @@
 			$('#btdownload').click(function () {
 
 
-				var email = $('#txtemail').val();
-				var nome = $('#txtnome').val();
+				var email = $('#txtEmail').val();
+				var nome = $('#txtNome').val();
                 var ip = <?php echo json_encode($ipaddress); ?>
-
-                alert(ip);
-
-				
+			
 
 				$.ajax({
 					url: "controlerCliente.php",
 					method: "post",
 					data: { varNome: nome, varEmail: email, varIP: ip},
 					success: function (data) {
-
-						alert('Sucesso' + data);
-						alert('Fazer o downlaod do arquivo');
-						alert('Redirecionar');
-						window.location.href='index.php';
-
-
+						alert('Você receberá o link em seu e-mail cadastrado. Obrigado!');
+                        window.location.href='blog.php';
 					},
 					error: function (data) {
 						alert('Erro ' + data);
@@ -177,7 +169,8 @@
 			});
 		});		
 
-	</script>
+    </script>
+    
 <!--===============================================================================================-->
 	<script src="assets/ebook/js/main.js"></script>
 <!--===============================================================================================-->

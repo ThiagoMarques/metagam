@@ -1,21 +1,7 @@
 <?php
-require_once 'includes/header.php'; 
-    $ipaddress = '';
-    if (getenv('HTTP_CLIENT_IP'))
-        $ipaddress = getenv('HTTP_CLIENT_IP');
-    else if(getenv('HTTP_X_FORWARDED_FOR'))
-        $ipaddress = getenv('HTTP_X_FORWARDED_FOR');
-    else if(getenv('HTTP_X_FORWARDED'))
-        $ipaddress = getenv('HTTP_X_FORWARDED');
-    else if(getenv('HTTP_FORWARDED_FOR'))
-        $ipaddress = getenv('HTTP_FORWARDED_FOR');
-    else if(getenv('HTTP_FORWARDED'))
-        $ipaddress = getenv('HTTP_FORWARDED');
-    else if(getenv('REMOTE_ADDR'))
-        $ipaddress = getenv('REMOTE_ADDR');
-    else
-        $ipaddress = 'UNKNOWN';
+require_once 'includes/header.php';
 ?>
+
 <!DOCTYPE html>
 
 <html lang="pt-br">
@@ -60,28 +46,40 @@ require_once 'includes/header.php';
 </head>
 
 <body>
-    <div class="container">
-        <div class="panel panel-primary" style="width:750px;margin:50px auto">
-            <div class="card">
-                <div class="card-body">
-                    <form>
-                        <div class="form-group">
-                            <div class="form-group">
-                                <label for="txtnome">Nome</label>
-                                <input type="input" class="form-control" id="txtnome" placeholder="Seu Nome">
-                            </div>
+<div class="blog-container">
+        <div class="card cardBlog">
+            <div class="row align-items-center">
+                <div class="col-sm-4">
+                <h2 class="title-post ">Fale Conosco</h2>
 
-                            <label for="exampleInputEmail1">Endereço de email</label>
-                            <input type="email" class="form-control" id="txtemail" aria-describedby="emailHelp"
-                                placeholder="Seu email">
-                            <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com
-                                ninguém.</small>
+                <form action="contatoemail.php" method="post">  
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for="txtnome">Nome</label>
+                            <input type="input" name="txtNome" class="form-control" id="txtNome" placeholder="Seu Nome">
                         </div>
-                        <button type="submit" id="btdownload" class="btn btn-primary">Fazer Download</button>
+
+                        <label for="exampleInputEmail1">Endereço de email</label>
+                        <input type="email" name="txtEmail" class="form-control" id="txtEmail" aria-describedby="emailHelp"
+                            placeholder="Seu email"><br>
+                        <label for="txtMensagem">Mensagem</label><br>
+                        <textarea class="form-control" name="txtMensagem" id="txtMensagem" rows="8" cols="40"></textarea>
+                    </div>
+                        <button type="submit" name="Enviar" class="btn btn-primary">Enviar e-mail</button>
                     </form>
                 </div>
             </div>
         </div>
+    </div>
+
+    <footer id="footer" class="py-4 text-white-50">
+    <div class="container text-center">
+	  <small>Copyright &copy; 2019 Metagam</small>
+      <ul style="list-style: none; margin-top: 10px;" class="icons">
+		<li><a  style="color: #aaaaaa;" href="https://www.facebook.com/Metagam-109793053763944/" class="fa fa-facebook-square"><span class="label">Facebook</span></a></li>
+		<li><a  style="color: #aaaaaa;" href="https://www.instagram.com/metagamhost/?hl=pt-br" class="fa fa-instagram"><span class="label">Instagram</span></a></li>
+		<li><a  style="color: #aaaaaa;" href="mailto:metagam2019@gmail.com" class="fa fa-envelope"><span class="label">Email</span></a></li>
+	</ul>
     </div>
 
     <footer id="footer" class="py-4 text-white-50">
@@ -101,67 +99,6 @@ require_once 'includes/header.php';
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    <script>
-
-        $(document).ready(function () {
-
-            console.log("Página carregada");
-
-            $('#btdownload').click(function () {
-
-
-                var email = $('#txtemail').val();
-                var nome = $('#txtnome').val();
-                var ip = <?php echo json_encode($ipaddress); ?>
-                
-                <?php
-                    $string = '';
-                    exec("dig +short -x $ip 2>&1", $output, $retval);
-                    if ($retval != 0)
-                    {
-                        // there was an error performing the command
-                    }
-                    else
-                    {
-                        $x=0;
-                        while ($x < (sizeof($output)))
-                        {
-                            $string.= $output[$x];
-                            $x++;
-                        }
-                    }
-                
-                    if (empty($string))
-                        $string = $ip;
-                    else //remove the trailing dot
-                        $string = substr($string, 0, -1);
-                
-
-                ?>
-                
-                alert(varIp);
-              
-
-                $.ajax({
-                    url: "controlerCliente.php",
-                    method: "post",
-                    data: { varNome: nome, varEmail: email, varIP: ip },
-                    success: function (data) {
-
-                        alert('Sucesso' + data);
-
-
-                    },
-                    error: function (data) {
-                        alert('Erro ' + data);
-
-                    }
-                });
-
-            });
-        });
-
-    </script>
 </body>
 
 </html>
