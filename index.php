@@ -19,7 +19,7 @@ require_once 'includes/header.php';
             <div class="card">
                 <div class="row align-items-center">
                     <div class="col">
-                        <img class="d-block" src="assets/images/example2.png" alt="First slide">
+                        <img class="d-block" src="assets/images/example2.png" alt="Imagem de exemplo - Computador">
                     </div>
                     <div class="col">
                         <h2 class="title-post ">O que é a nuvem?</h2>
@@ -29,7 +29,7 @@ require_once 'includes/header.php';
                 </div>
                 <div class="row align-items-center">
                     <div class="col-sm-2">
-                        <img class="d-block" width="200" height="200" src="assets/images/example2.png" alt="First slide">
+                        <img class="d-block" width="200" height="200" src="assets/images/example2.png" alt="Imagem de exemplo - Computador">
                     </div>
                     <div class="col-sm-4">
                     <h2 class="title-post ">O que é a nuvem?</h2>
@@ -37,7 +37,7 @@ require_once 'includes/header.php';
     Mauris in tortor tristique, fringilla sem non, fermentum urna. Maecenas sit amet turpis diam. Pellentesque pretium bibendum est ac vestibulum. Aliquam laoreet massa vel libero scelerisque laoreet eu ut sapien. Fusce quis velit et augue consequat consequat vitae ut urna. Sed enim purus, semper et mi vitae, pretium imperdiet elit. Aenean tortor libero, consectetur eu massa sed, vestibulum dapibus dolor. Nulla enim dui, venenatis nec imperdiet in, interdum et odio. Donec sed nunc sodales, ultricies nisl sit amet, sodales urna.</p>
                     </div>
                     <div class="col-sm-2">
-                        <img class="d-block" width="200" height="200" src="assets/images/example2.png" alt="First slide">
+                        <img class="d-block" width="200" height="200" src="assets/images/example2.png" alt="Imagem de exemplo - Computador">
                     </div>
                     <div class="col-sm-4">
                     <h2 class="title-post ">O que é a nuvem?</h2>
@@ -47,7 +47,7 @@ require_once 'includes/header.php';
                 </div>
                 <div class="row align-items-center">
                     <div class="col-sm-2">
-                        <img class="d-block" width="200" height="200" src="assets/images/example2.png" alt="First slide">
+                        <img class="d-block" width="200" height="200" src="assets/images/example2.png" alt="Imagem de exemplo - Computador">
                     </div>
                     <div class="col-sm-4">
                     <h2 class="title-post ">O que é a nuvem?</h2>
