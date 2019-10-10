@@ -80,11 +80,23 @@
 
 	.title-post {
 		font-size: 35px;
-		margin: 35px;
+		margin: 15px;
 	}
+	/* Index - botão div */
+	.art-div {
+		padding-bottom: 15px;
+	}
+	
+
 	img {
 		display: block;
 		max-width: 100%;
 		height: auto;
+	}
+
+	imgEbook {
+		width: 100px;
+		height:150px;
+		
 	}
 

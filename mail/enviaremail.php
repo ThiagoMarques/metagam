@@ -2,13 +2,14 @@
 header('Content-Type: text/html; charset=UTF-8');
 /* Recuperar os Dados do Formulário de Envio*/
 $txtNome = $_POST["txtNome"];
-$txtAssunto = "Contato por meio do site";
+$txtAssunto = "O seu EBOOK chegou!";
 $txtEmail = $_POST["txtEmail"];
 $txtMensagem = $_POST["txtMensagem"];
+$linkDownload = "https://drive.google.com/open?id=1XRoIRvNzC57H8Zstai2Mg-yF9Tgla5Mx";
  
 /* Montar o corpo do email*/
 // $corpoMensagem = "<b>Nome:</b> ".$txtNome." <br><b>Assunto:</b> ".$txtAssunto."<br><b>Mensagem:</b> ".$txtMensagem;
-$corpoMensagem = "<b>Nome:</b> ".$txtNome." <br><b>Assunto:</b> ".$txtAssunto."<br><b>Mensagem:</b> ".$txtMensagem;
+$corpoMensagem = "Olá ".$txtNome.".<br>Segue o link para download do seu e-book: <a href='http://www.metagam.com.br/E-book-Domine_sua_vida_financeira.pdf'>Download do Ebook</span></a>";
  
 /* Extender a classe do phpmailer para envio do email*/
 require_once("PHPMailer/class.phpmailer.php");
@@ -47,8 +48,8 @@ function smtpmailer($para, $de, $nomeDestinatario, $assunto, $corpo)
 }
  
 /* Passagem dos parametros: email do Destinatário, email do remetende, nome do remetente, assunto, mensagem do email.*/
-if (smtpmailer('metagam2019@gmail.com', 'metagam2019@gmail.com', $txtNome, $txtAssunto, $corpoMensagem)) {
-    Header("location: blog.php"); // Redireciona para uma página de Sucesso.
+if (smtpmailer($txtEmail, 'metagam2019@gmail.com', $txtNome, $txtAssunto, $corpoMensagem)) {
+    Header("location: ../index.php"); // Redireciona para uma página de Sucesso.
 }
 if (!empty($error)) {
     echo $error;

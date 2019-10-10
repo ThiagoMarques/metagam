@@ -52,7 +52,7 @@ require_once 'includes/header.php';
                 <div class="col-sm-4">
                 <h2 class="title-post ">Fale Conosco</h2>
 
-                <form action="contatoemail.php" method="post">  
+                <form action="mail/contatoemail.php" method="post">  
                     <div class="form-group">
                         <div class="form-group">
                             <label for="txtnome">Nome</label>
@@ -81,19 +81,6 @@ require_once 'includes/header.php';
 		<li><a  style="color: #aaaaaa;" href="mailto:metagam2019@gmail.com" class="fa fa-envelope"><span class="label">Email</span></a></li>
 	</ul>
     </div>
-
-    <footer id="footer" class="py-4 text-white-50">
-    <div class="container text-center">
-	  <small>Copyright &copy; 2019 Metagam</small>
-      <ul style="list-style: none; margin-top: 10px;" class="icons">
-		<li><a  style="color: #aaaaaa;" href="https://www.facebook.com/Metagam-109793053763944/" class="fa fa-facebook-square"><span class="label">Facebook</span></a></li>
-		<li><a  style="color: #aaaaaa;" href="https://www.instagram.com/metagamhost/?hl=pt-br" class="fa fa-instagram"><span class="label">Instagram</span></a></li>
-		<li><a  style="color: #aaaaaa;" href="mailto:metagam2019@gmail.com" class="fa fa-envelope"><span class="label">Email</span></a></li>
-	</ul>
-    </div>
-</footer>
-
-
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
