@@ -11,10 +11,22 @@ require_once 'includes/header.php';
     <meta charset="utf-8">
     <!--===============================================================================================-->	
     <link rel="icon" href="assets/images/icon.png">
-    <!--===============================================================================================-->	
-    <link rel="stylesheet" href="assets/css/bootstrap.css" />
-    <!--===============================================================================================-->	
-    <link rel="stylesheet" href="assets/css/main.css" />
+<!--===============================================================================================-->	
+    <link rel="icon" type="image/image" href="assets/ebook/images/icons/icon.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/ebook/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/ebook/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/ebook/vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="assets/ebook/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/ebook/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/ebook/css/util.css">
+	<link rel="stylesheet" type="text/css" href="assets/ebook/css/main.css">
+<!--===============================================================================================-->
     <!--====================== Global site tag (gtag.js) - Google Analytics =========================-->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149525971-1"></script>
     <script>
@@ -47,15 +59,64 @@ require_once 'includes/header.php';
 
 <body>
     <div class="blog-container">
-            <div class="card">
+            <div class="card card-index" style="border: none">
+            
                 <div class="row align-items-center">
-                    <div class="col">
-                        <img class="d-block" src="assets/images/example2.png" class="img-responsive" alt="Imagem de exemplo - Computador">
-                    </div>
-                    <div class="col">
-                    <a href="ebook.php" class="btn-div"><img class="d-block" src="assets/images/ebook_Baner.jpg" class="img-responsive" alt="Imagem de exemplo - Computador"></a>
+                                
+                <div class="container-login100">
+                <div class="row justify-content-center">
+                    <div class="col" style="margin-right: 25px;">
+                    <div class="d-block" data-tilt>
+                        <img src="assets/ebook/images/img-01.png" alt="IMG">
                     </div>
                     
+
+                    </div>
+                    <div class="col">
+                    <form action="mail/enviaremail.php" class="login100-form validate-form" method="post">
+                        <span class="login100-form-title">
+                            Descubra como criar seu site e-commerce hoje mesmo
+                        </span>
+
+                        <div class="wrap-input100 validate-input" data-validate = "Informe um e-mail válido">
+                            <input class="input100" type="text" name="txtEmail" placeholder="Email" id="txtEmail">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </span>
+                        </div>
+
+                        <div class="wrap-input100 validate-input" data-validate = "Informe um nome">
+                            <input class="input100" type="text" name="txtNome" placeholder="Nome" id="txtNome">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                <i class="fa fa-user-o" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div class="container-login100-form-btn">
+                            <button class="login100-form-btn" id="btdownload">
+                                Sim, eu quero meu ebook !!
+                            </button>
+                        </div>
+
+                        <div class="text-center p-t-12">
+                            <span class="txt1">
+                            
+                            </span>
+                            <a class="txt2" href="#">
+                                
+                            </a>
+                        </div>
+                    </div>
+                    </form>
+                    
+                    </div>
+        </div>
+                
+                
+
+				
+                
                 </div>
                 <div class="row align-items-center">
                     <div class="col-sm-2">
@@ -121,7 +182,62 @@ require_once 'includes/header.php';
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <!--===============================================================================================-->	
+	<script src="assets/ebook/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="assets/ebook/vendor/bootstrap/js/popper.js"></script>
+	<script src="assets/ebook/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="assets/ebook/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="assets/ebook/vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
 
+        $(document).ready(function () {
+
+			console.log("Página carregada");
+
+			$('#btnvoltar').click(function(){
+				window.location.href='index.php';
+
+			});
+
+			$('#btdownload').click(function () {
+
+
+				var email = $('#txtEmail').val();
+				var nome = $('#txtNome').val();
+                var ip = <?php echo json_encode($ipaddress); ?>
+			
+
+				$.ajax({
+					url: "connect/controlerCliente.php",
+					method: "post",
+					data: { varNome: nome, varEmail: email, varIP: ip},
+					success: function (data) {
+						alert('Você receberá o link em seu e-mail cadastrado. Obrigado!');			
+						window.location.href='index.php';
+                       
+					},
+					error: function (data) {
+
+						alert('erro '+data);
+
+						window.location.href='erro.php';
+					}
+				});
+
+			});
+		});		
+
+    </script>
+    
+<!--===============================================================================================-->
+	<script src="assets/ebook/js/main.js"></script>
+<!--===============================================================================================-->   
 
 </body>
 
