@@ -53,7 +53,7 @@ require_once 'includes/header.php';
                         <img class="d-block" src="assets/images/example2.png" class="img-responsive" alt="Imagem de exemplo - Computador">
                     </div>
                     <div class="col">
-                        <img class="d-block" src="assets/images/ebook_Baner.jpg" class="img-responsive" alt="Imagem de exemplo - Computador">
+                    <a href="ebook.php" class="btn-div"><img class="d-block" src="assets/images/ebook_Baner.jpg" class="img-responsive" alt="Imagem de exemplo - Computador"></a>
                     </div>
                     
                 </div>
