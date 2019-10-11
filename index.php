@@ -198,8 +198,6 @@ require_once 'includes/header.php';
 
         $(document).ready(function () {
 
-			console.log("Página carregada");
-
 			$('#btnvoltar').click(function(){
 				window.location.href='index.php';
 
@@ -218,7 +216,7 @@ require_once 'includes/header.php';
 					method: "post",
 					data: { varNome: nome, varEmail: email, varIP: ip},
 					success: function (data) {
-						alert('Você receberá o link em seu e-mail cadastrado. Obrigado!');			
+						// alert('Você receberá o link em seu e-mail cadastrado. Obrigado!');			
 						window.location.href='obrigado.php';
                        
 					},
