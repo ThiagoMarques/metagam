@@ -82,6 +82,9 @@
 		font-size: 35px;
 		margin: 15px;
 	}
+	.font-article {
+		font-size: 20px;
+	}
 	/* Index - botão div */
 	.art-div {
 		padding-bottom: 15px;

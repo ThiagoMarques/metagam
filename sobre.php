@@ -52,9 +52,10 @@ require_once 'includes/header.php';
                     <img class="d-block" src="assets/images/example1.png" alt="Imagem de exemplo - Computador">
                 </div>
                 <div class="col">
-                <h2 class="title-post ">Sobre nós</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec urna nunc, condimentum a pulvinar nec, porttitor eu lectus. In ultricies egestas dapibus. Duis lacinia dolor eget quam molestie suscipit. Quisque dignissim aliquet rutrum. Maecenas suscipit odio eget orci scelerisque, nec consequat tellus tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla eget libero vel augue mollis tempus a nec nunc.
-Mauris in tortor tristique, fringilla sem non, fermentum urna. Maecenas sit amet turpis diam. Pellentesque pretium bibendum est ac vestibulum. Aliquam laoreet massa vel libero scelerisque laoreet eu ut sapien. Fusce quis velit et augue consequat consequat vitae ut urna. Sed enim purus, semper et mi vitae, pretium imperdiet elit. Aenean tortor libero, consectetur eu massa sed, vestibulum dapibus dolor. Nulla enim dui, venenatis nec imperdiet in, interdum et odio. Donec sed nunc sodales, ultricies nisl sit amet, sodales urna.</p>
+                <h2 class="title-post ">Sobre nós</h2><br>
+                <p class="font-article" >A Metagam é um verdadeiro hotel 5 estrelas para o seu site.<p><br>
+                <p class="font-article" >A plataforma é completa para aplicações online. Hospedagem em nuvem, é só uma parte do que fazemos.<p><br>
+                <p class="font-article" >Metagam, a solução ideal para seu negócio digital.</p><br>
                 </div>
             </div>
         </div>

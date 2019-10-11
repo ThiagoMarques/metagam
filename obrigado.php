@@ -219,7 +219,7 @@ require_once 'includes/header.php';
 					data: { varNome: nome, varEmail: email, varIP: ip},
 					success: function (data) {
 						alert('Você receberá o link em seu e-mail cadastrado. Obrigado!');			
-						window.location.href='obrigado.php';
+						window.location.href='index.php';
                        
 					},
 					error: function (data) {
