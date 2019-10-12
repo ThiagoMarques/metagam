@@ -49,31 +49,40 @@ require_once 'includes/header.php';
             <div class="card cardBlog">
                 <div class="row align-items-center">
                     <div class="col-sm-4">
-                        <img class="d-block" src="../assets/images/negocio_nuvem.png" alt="Imagem de um serviço de hospedagem nas nuvens">
+                        <img class="d-block" src="../assets/images/seo.jpeg" alt="Imagem de um serviço de um computador">
                     </div>
                     <div class="col">
-                    <h2 class="title-post">Ganhe mais dinheiro com vendas on-line</h2><br>
+                    <h2 class="title-post">SEO - faça o Google colocar seu site em destaque  </h2><br>
 
-<p class="font-article" style="font-weight:bold;">Passo número 1 - Entenda as necessidades do seu negócio. </p><br>
+<p class="font-article">&nbsp;&nbsp;&nbsp;&nbsp;SEO vai ser seu melhor amigo na hora de ficar no topo das pesquisas do Google. Ele é essencial para seu negócio diante de toda a transformação tecnológica na qual estamos imersos. Uma ferramenta do marketing digital simples que vai te colocar na frente dos seus concorrentes.<br>
 
-<p class="font-article">&nbsp;&nbsp;&nbsp;&nbsp;O mercado oferece várias plataformas de criação de site gratuitas e pagas, as mais recomendadas são o Wordpress e Wix; ambas oferecem funcionalidades que garantem boa criação de conteúdo para sua estratégia de marketing. Se você deseja criar um e-commerce, ou seja, uma loja virtual, as plataformas mais indicadas são: Shopify e Loja Integrada, que garantem segurança para empreender na web.</p><br>
+&nbsp;&nbsp;&nbsp;&nbsp;Mais de 2 milhões de textos são publicados por dia. Para destacar as melhores informações nesse mar de conteúdo, o Google definiu alguns parâmetros, são eles que chamamos de SEO. Veja como usa-la da melhor forma possível.</p><br>
 
-<p class="font-article" style="font-weight:bold;">Passo número 2 – Crie um domínio</p><br>
+<p class="font-article" style="font-weight:bold;">Defina uma persona</p><br>
 
-<p class="font-article">&nbsp;&nbsp;&nbsp;&nbsp;Deixe sua marca gravada na mente de seus clientes, adquira um domínio com nome da sua empresa e mostre profissionalismo.</p><br>
+<p class="font-article">&nbsp;&nbsp;&nbsp;&nbspOs buscadores do Google conseguem oferecer tráfego segmentado, sendo assim, usando a linguagem e a temática certa para o sua persona, fica mais fácil converter seu conteúdo em clientes por meio de tráfego orgânico.</p><br>
 
-<p class="font-article" style="font-weight:bold;">Passo número 3 – Hospede seu site na nuvem</p><br>
- 
-<p class="font-article">&nbsp;&nbsp;&nbsp;&nbsp;A hospedagem é basicamente um serviço de aluguel. Você paga para usar um espaço na web em que seus arquivos e dados serão armazenados. Registra e tem a mão o e-mail de todos os clientes e interessados nos seus serviços ou produtos. Todo o conteúdo disponível 24h para não deixar você perder nenhuma venda. E tudo isso por um valor muito mais baixo do que gastaria se tivesse um site independente, além de não ter que lidar com a complexidade dessas funcionalidades, tendo uma equipe preparada que faz isso por você.</p><br>
+<p class="font-article" style="font-weight:bold;">Produza conteúdo relevante</p><br>
 
-<p class="font-article" style="font-weight:bold;">Como investir em uma ferramenta que entregará valor à sua marca?</p><br><ul class="font-article" style="list-style: none;"> 
+<p class="font-article">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Não existe tática de SEO no mundo capaz de alavancar um site sem conteúdo de qualidade, O Google consegue fazer seus buscadores ficarem cada vez mais inteligentes e eles identificam tudo que consta no seu site, seja em forma de textos, áudios, vídeos ou imagens e tudo isso refletirá na sua posição nas pesquisas. Então não adianta achar que pode enganar a plataforma. O topo é apenas para quem se engaja de verdade.<br><br>
 
-<li>- Contrate um serviço de hospedagem que ofereça open-time, isto é, o tempo em que seu site estará disponível para acesso. Não aceitem serviços que oferecem menos de 99% de open-time.
+<p class="font-article" style="font-weight:bold;">Personalize a URL</p><br>
 
-<li>- Tenha um sistema de upgrade e downgrade. Imagine só, seu site crescendo e aumentando muito o número de acessos, você está feliz porque seu trabalho está dando resultado e de repente seu ele fica fora do ar. Seus clientes não entendem o porque disso e param de acessar seu conteúdo, a consequência é a diminuição das vendas.
-Tendo tudo na nuvem esse problema não acontecerá com o seu negócio. 
+<p class="font-article">&nbsp;&nbsp;&nbsp;&nbsp;URL é o endereço do seu site, o ideal é que cada página tenha uma URL com palavra-chave ligada à sua temática. Nada muito complexo, curto e direto. Isso já ajudará bastante. Pesquise as palavras mais buscadas referentes ao tema que você deseja abordar, o Google Trends vai te ajudar com isso.<br><br>
 
-<p class="font-article">&nbsp;&nbsp;&nbsp;&nbsp;Fique atento aos melhores serviços de host! Esse pode ser o diferencial que você procura para alavancar seus ganhos.<br><br>
+<p class="font-article" style="font-weight:bold;">Títulos e subtítulos</p><br>
+
+<p class="font-article">&nbsp;&nbsp;&nbsp;&nbsp;Aprendemos desde crianças que bons títulos atraem nossa atenção, na internet não seria diferente. H1 é o título principal do seu texto e deve ter a palavra principal que deseja trabalhar. H2, H3, H4… são os subtítulos que são ótimos para utilização de palavras-chave longas. Por exemplo: <br>
+
+H1 - SEO -  aprenda tudo que precisa saber<br>
+H2 - Otimize seu site de maneira fácil<br>
+
+Conteúdo com mais de 1000 palavras<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Textos muito curtos costumam ser rasos e não gerar valor para os leitores, por isso o Google dá preferência àqueles que são mais longos e oferecem mais informações aos interessados. Fique atento para não acabar escrevendo demais, o importante é que o leitor aprenda algo e não abandone seu material antes do fim por achá-lo massante.<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Já são mais de 300 fatores de indexação de uma página web, aplique os principais que comece a ver a diferença no seu site. <br><br>
+
                     <div class="card">
                         <a href="../index.php" class="btn-div"><button type="button" class="btn btn-metagam btn-sm btn-primary">Voltar <i class="fa fa-long-arrow-left"></i></button></a>
                     </div>

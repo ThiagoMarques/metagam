@@ -50,85 +50,102 @@ require_once 'includes/header.php';
       fbq('track', 'Lead');
   </script>
   <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=979073025765599&ev=PageView&noscript=1(44https://www.facebook.com/tr?id=979073025765599&ev=PageView&noscript=1(44(44 B)
-    https://www.facebook.com/tr?id=979073025765599&ev=PageView&noscript=1(44https://www.facebook.com/tr?id=979073025765599&ev=PageView&noscript=1(44
+  src="https://www.facebook.com/tr?id=979073025765599&ev=PageView&noscript=1(44https://www.facebook.com/tr?id=979073025765599&ev=PageView&noscript=1(44(44 B)
+https://www.facebook.com/tr?id=979073025765599&ev=PageView&noscript=1(44https://www.facebook.com/tr?id=979073025765599&ev=PageView&noscript=1(44
 
-    B)
-    https://www.facebook.com/tr?id=979073025765599&ev=PageView&noscript=1https://www.facebook.com/tr?id=979073025765599&ev=PageView&noscript=1(44 B)
-    https://www.facebook.com/tr?id=979073025765599&ev=PageView&noscript=1https://www.facebook.com/tr?id=979073025765599&ev=PageView&noscript=1
-    "
-    /></noscript>
-    <!--====--><!--==================End Facebook Pixel Code --><!--==================================-->
+B)
+  https://www.facebook.com/tr?id=979073025765599&ev=PageView&noscript=1https://www.facebook.com/tr?id=979073025765599&ev=PageView&noscript=1(44 B)
+https://www.facebook.com/tr?id=979073025765599&ev=PageView&noscript=1https://www.facebook.com/tr?id=979073025765599&ev=PageView&noscript=1
+  "
+  /></noscript>
+  <!--====--><!--==================End Facebook Pixel Code --><!--==================================-->
 </head>
 
 <body>
     <div class="blog-container">
             <div class="card card-index" style="border: none">
-            
-                <div class="row align-items-center">
-                                
-                <div class="container-login100">
-                <div class="row justify-content-center">
-                    <div class="col" style="margin-right: 25px;">
-                    <div class="d-block" data-tilt>
-                        <img src="assets/images/mockup-ebook.png" alt="IMG">
-                    </div>
-                    
-
-                    </div>
-                    <div class="col align-self-center">
-                        <span class="login100-form-title">
-                            Obrigado!<br>Você receberá em seu e-mail cadastrado o link para download.
+                <div class="container">
+                    <div class="d-block">
+                        <img src="assets/images/obrigado.png" alt="Imagem de agradecimento pelo download do ebook">
+                        <span style="margin-top: 10px;" class="login100-form-title">
+                        <p class="text-alert">*Você receberá em seu e-mail cadastrado o link para download.</p>
                         </span>
                     </div>
                 </div>
-            </div>
-                </div>
+
                 <div class="row align-items-center">
                     <div class="col-sm-2">
-                        <img class="d-block" width="200" height="200" src="assets/images/example2.png" alt="Imagem de exemplo - Computador">
+                        <img class="d-block" width="200" height="200" src="assets/images/seguranca_nuvem.png" alt="Imagem segurança na nuvem">
                     </div>
 
                     <div class="col-sm-4">
                         <div class="card-body">
                             <h2 class="title-post card-title">Segurança na nuvem</h2>
                             <p class="art-div">A tecnologia é parte do dia a dia das pessoas. As redes sociais mudaram completamente a nossa forma de comunicação e isso refletiu na nossa forma de compartilhar conhecimento, mas também na forma de armazenar dados.Google Drive, Dropbox, iCloud, e tantas outras plataformas que estão sendo desenvolvidas, tem sido os principais espaços de armazenamento de dados pessoais e corporativas. Há quanto tempo você não toca em uma foto impressa? A nuvem revolucionou até mesmo a armazenagem das nossas memórias.</p>
-                            <a href="artigos/segurancanuvem.php" class="btn-div"><button type="button" class="btn btn-sm btn-primary">Leia Mais <i class="fa fa-long-arrow-right"></i></button></a>
+                            <a href="artigos/segurancanuvem.php" class="btn-div"><button type="button" class="btn btn-metagam btn-sm btn-primary">Leia Mais <i class="fa fa-long-arrow-right"></i></button></a>
                         </div>
                     </div>
 
                     <div class="col-sm-2">
-                        <img class="d-block" width="200" height="200" src="assets/images/example2.png" alt="Imagem de exemplo - Computador">
+                    <img class="d-block" width="200" height="200" src="assets/images/transformacao.png" alt="Imagem que representa a transformação digital">
                     </div>
                     <div class="col-sm-4">
                         <div class="card-body">
                             <h2 class="title-post card-title">Transformação Digital</h2>
                             <p class="art-div">Se você assiste as notícias ou vem lendo bastante sobre tecnologia e empreendedorismo, provavelmente, já escutou sobre transformação digital. Falando sobre isso a primeira dúvida que normalmente aparece é: o que é transformação digital, afinal? Falar sobre essa transformação global é falar sobre a Quarta Revolução Industrial que, diferente das outras revoluções, vem trazendo novas tecnologias com velocidade, alcance e impacto em sistemas nunca vistos. Com intensa automatização que só foi possibilitada pela internet e pelo armazenamento em nuvem.</p>
-                            <a href="artigos/digital.php" class="btn-div"><button type="button" class="btn btn-sm btn-primary">Leia Mais <i class="fa fa-long-arrow-right"></i></button></a>
+                            <a href="artigos/digital.php" class="btn-div"><button type="button" class="btn btn-metagam btn-sm btn-primary">Leia Mais <i class="fa fa-long-arrow-right"></i></button></a>
                         </div>
                     </div>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-sm-2">
-                        <img class="d-block" width="200" height="200" src="assets/images/example2.png" alt="Imagem de exemplo - Computador">
+                        <img class="d-block" width="200" height="200" src="assets/images/servico_hospedagem.png" alt="Imagem de um serviço de hospedagem">
                     </div>
                     <div class="col-sm-4">
                         <div class="card-body">
                             <h2 class="title-post card-title">Ganhe mais dinheiro com vendas on-line</h2>
                             <p class="art-div">Passo número 1 - Entenda as necessidades do seu negócio. O mercado oferece várias plataformas de criação de site gratuitas e pagas, as mais recomendadas são o Wordpress e Wix; ambas oferecem funcionalidades que garantem boa criação de conteúdo para sua estratégia de marketing. Se você deseja criar um e- commerce, ou seja, uma loja virtual, as plataformas mais indicadas são: Shopify e Loja Integrada, que garantem segurança para empreender na web.</p>
-                            <a href="artigos/ganhe.php" class="btn-div"><button type="button" class="btn btn-sm btn-primary">Leia Mais <i class="fa fa-long-arrow-right"></i></button></a>
+                            <a href="artigos/ganhe.php" class="btn-div"><button type="button" class="btn btn-metagam btn-sm btn-primary">Leia Mais <i class="fa fa-long-arrow-right"></i></button></a>
                         </div>
                     </div>
-                    <!-- <div class="col-sm-2">
-                        <img class="d-block" width="200" height="200" src="assets/images/example2.png" alt="First slide">
-                    </div> -->
-                    <!-- <div class="col-sm-4">
+                    <div class="col-sm-2">
+                        <img class="d-block" width="200" height="200" src="assets/images/negocio_nuvem.png" alt="Imagem de um serviço de hospedagem">
+                    </div>
+                    <div class="col-sm-4">
                         <div class="card-body">
-                            <h2 class="title-post card-title">O que é a nuvem?</h2>
-                            <p class="art-div">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec urna nunc, condimentum a pulvinar nec, porttitor eu lectus. In ultricies egestas dapibus. Duis lacinia dolor eget quam molestie suscipit. Quisque dignissim aliquet rutrum. Maecenas suscipit odio eget orci scelerisque, nec consequat tellus tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla eget libero vel augue mollis tempus a nec nunc.    Mauris in tortor tristique, fringilla sem non, fermentum urna. Maecenas sit amet turpis diam. Pellentesque pretium bibendum est ac vestibulum. Aliquam laoreet massa vel libero scelerisque laoreet eu ut sapien. Fusce quis velit et augue consequat consequat vitae ut urna. Sed enim purus, semper et mi vitae, pretium imperdiet elit. Aenean tortor libero, consectetur eu massa sed, vestibulum dapibus dolor. Nulla enim dui, venenatis nec imperdiet in, interdum et odio. Donec sed nunc sodales, ultricies nisl sit amet, sodales urna.</p>
-                            <a href="artigos/nuvem.php" class="btn-div"><button type="button" class="btn btn-sm btn-primary">Leia Mais <i class="fa fa-long-arrow-right"></i></button></a>
+                            <h2 class="title-post card-title">Ganhe mais dinheiro com vendas on-line</h2>
+                            <p class="art-div">Passo número 1 - Entenda as necessidades do seu negócio. O mercado oferece várias plataformas de criação de site gratuitas e pagas, as mais recomendadas são o Wordpress e Wix; ambas oferecem funcionalidades que garantem boa criação de conteúdo para sua estratégia de marketing. Se você deseja criar um e- commerce, ou seja, uma loja virtual, as plataformas mais indicadas são: Shopify e Loja Integrada, que garantem segurança para empreender na web.</p>
+                            <a href="artigos/ganhe.php" class="btn-div"><button type="button" class="btn btn-metagam btn-sm btn-primary">Leia Mais <i class="fa fa-long-arrow-right"></i></button></a>
                         </div>
-                    </div> -->
+                    </div>
+                    <div class="col-sm-2">
+                    <img class="d-block" width="200" height="200" src="assets/images/seo.jpeg"
+                        alt="Imagem de um serviço de hospedagem">
+                </div>
+                <div class="col-sm-4">
+                    <div class="card-body">
+                        <h2 class="title-post card-title">SEO - faça o Google colocar seu site em destaque</h2>
+                        <p class="art-div">SEO vai ser seu melhor amigo na hora de ficar no topo das pesquisas do Google. Ele é essencial para seu negócio diante de toda a transformação tecnológica na qual estamos imersos. Uma ferramenta do marketing digital simples que vai te colocar na frente dos seus concorrentes.</p>
+                        <a href="artigos/seo.php" class="btn-div"><button type="button"
+                                class="btn btn-metagam btn-sm btn-primary">Leia Mais <i
+                                    class="fa fa-long-arrow-right"></i></button></a>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <img class="d-block" width="200" height="200" src="assets/images/ebook.jpeg"
+                        alt="Imagem de um serviço de hospedagem">
+                </div>
+                <div class="col-sm-4">
+                    <div class="card-body">
+                        <h2 class="title-post card-title">Domine sua vida financeira</h2>
+                        <p class="art-div">Altos índices de desemprego, trabalhos insalubres com aquele chefe mala que você não aguenta mais ou simplesmente o desejo de fazer mais dinheiro.
+                        Este e-book vai te ajudar a conquistar aquela renda que você sente falta no fim do mês.
+                        .</p>
+                        <a href="artigos/ebook.php" class="btn-div"><button type="button"
+                                class="btn btn-metagam btn-sm btn-primary">Leia Mais <i
+                                    class="fa fa-long-arrow-right"></i></button></a>
+                    </div>
+                </div>
                 </div>
             </div>
     </div>

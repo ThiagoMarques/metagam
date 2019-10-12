@@ -48,18 +48,34 @@ require_once 'includes/header.php';
     <div class="blog-container">
             <div class="card cardBlog">
                 <div class="row align-items-center">
-                    <div class="col">
-                        <img class="d-block" src="../assets/images/example1.png" alt="Imagem de exemplo - Computador">
+                    <div class="col-sm-4">
+                        <img class="d-block" src="../assets/images/seguranca_nuvem.png" alt="Imagem segurança na nuvem">
                     </div>
                     <div class="col">
-                    <h2 class="title-post text-justify">O que é a nuvem?</h2>
-                    <p class="font-article">&nbsp;&nbsp;&nbsp;&nbsp;Hoje é cada vez mais comum ver a tecnologia no dia-a-dia dos brasileiros, a forma de comunicação, o uso de redes sociais, a forma como aprende e acessa o conhecimento, mas em especial o uso da nuvem vem fazendo parte da rotina como ferramenta de armazenamento dos arquivos dos brasileiros.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;Google Drive, Dropbox, iCloud e entre outros tem sido os principais para disponibilizar serviços de armazenamento de dados pessoais e corporativas para os consumidores.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;Mas apesar de usarmos hoje em dia constantemente, será que a nuvem é mesmo segura?<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;Primeiro, precisamos compreender que o armazenamento na nuvem não é necessariamente em uma nuvem, mas sim o armazenamento em Data Centers ou Centro de Dados, que possuem as tecnologias mais modernos e com grande capacidade de armazenamento e processamento de dados. Espalhados pelo mundo, esses Data Centers armazenam nossas fotos, textos, planilhas, vídeos e outros documentos pessoais e empresariais.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;Para que tanta gente possa armazenar esses dados ao redor do mundo, é necessário que a segurança seja extremamente rigorosa. Além de contar com segurança presencial, com profissionais que garantem a confidencialidade, integridade e disponibilidade dos documentos, ainda ocorre a criptografia dos dados e dos arquivos.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;No mundo empresarial, a nuvem se tornou é uma plataforma tecnológica indispensável para o desenvolvimento da empresa, desde a área de marketing e de vendas, passando por desenvolvimento de produtos e chega até a área de gestão. Independentemente do nível de tecnologia que o negócio utiliza, cada vez mais a intensidade da digitalização da empresa tende a crescer.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;Em geral os Cloud Hoster ou, também conhecido como Fornecedores de Hospedagem na Nuvem, além de fornecer a infraestrutura para o armazenamento, também avaliam toda a documentação e realizam a migração para a nuvem. Além do mais existem empresas fornecedoras de hospedagem na nuvem que realizam a gestão garantindo ainda mais a segurança e melhorar a performance e otimizar os custos dessa migração e o uso dessa tecnologia na empresa. Com esses suportes e toda a tecnologia envolvida nessa ferramenta de armazenamento digital não existe motivos para não migrar a empresa para um lugar seguro e eficiente como a nuvem.<br></p>
+                    <h2 class="title-post text-justify">Pra que serve um serviço de hopedagem </h2>
+
+                    <p class="font-article">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <p class="font-article" style="font-weight:bold;">Funcionamento de um site<br></p><br>
+
+                    <p class="font-article">&nbsp;&nbsp;&nbsp;&nbsp;Antes de qualquer coisa, você precisa entender como um site funciona. Para ter acesso a fotos, arquivos, imagens, informações, vídeo ou qualquer conteúdo web, seu site deve ter um servidor de hospedagem, ou seja, um espaço onde ele fica alocado. Para facilitar a compreensão, imagine que o servidor é o local onde seu site mora de aluguel.<br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;Já o endereço para que esse local seja encontrado é o domínio. Você pode comprar seu domínio individualmente ou escolher um servidor com pacote que o inclua, geralmente o pacote fica mais em conta.<br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;O DNS é o local que armazena todos os domínios, é uma grande central de informação de endereços. Quando alguém tenta acessar um site, o browser informa o DNS e então ele responde o número de servidor em que o site está.<br><br>
+
+                    <p class="font-article" style="font-weight:bold;">Migração de site<br></p><br>
+
+                    <p class="font-article">&nbsp;&nbsp;&nbsp;&nbsp;Migrar um site é como mudar de apartamento. Você precisa juntar todas as suas coisas com muito cuidado para não perder nada importante. Porém, existe algumas empresas que fazem esse serviço por você. Esse processo é encerrado quando seu DNS aponta seu domínio para outro destino. No caso da internet, você leva seu endereço quando se muda.<br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;Para isso você deve pesquisar quais serviços e infraestrutura seu novo servidor fornece, evitando assim dores de cabeça. O suporte da empresa deve ser rápido e eficiente garantindo que quaisquer eventuais problemas não perdurem, afinal, um site fora do ar pode gerar danos significativos. Como a perda de vendas e frustração de clientes, no caso de redes de e-commerce.<br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;Além disso, não se esqueça de verificar se a tecnologia do seu site atual é compatível com a da hospedagem que deseja migrar. Uma maneira para não precisar se preocupar com isso é escolhendo um host que use a tecnologia de nuvem. Hospedagem compartilhada é famosa pelos problemas que gera, se você deseja focar no que realmente importa e evitar problemas aposte na nuvem.<br></p><br><br>
+
+                    
+                    <div class="card">
+                    <a href="../index.php" class="btn-div"><button type="button" class="btn btn-metagam btn-sm btn-primary">Voltar <i class="fa fa-long-arrow-left"></i></button></a>
+                    </div>
+    
                     </div>
                 </div>
             </div>

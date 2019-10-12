@@ -48,8 +48,8 @@ require_once 'includes/header.php';
     <div class="blog-container">
             <div class="card cardBlog">
                 <div class="row align-items-center">
-                    <div class="col">
-                        <img class="d-block" src="../assets/images/example1.png" alt="Imagem de exemplo - Computador">
+                    <div class="col-sm-4">
+                        <img class="d-block" src="../assets/images/transformacao.png" alt="Imagem que representa a transformação digital">
                     </div>
                     <div class="col">
                     <h2 class="title-post ">Transformação Digital</h2>
@@ -61,9 +61,9 @@ require_once 'includes/header.php';
 <li>2) Quando o seu serviço prestado ou o produto é traduzido para o digital como o Spotify e os e-commerces fazem. O digital se torna um canal de vendas e de marketing para sua empresa. Essa tradução é utilizada nas partes que movem a empresa, em geral, comunicando melhor com seus clientes, potencializando seu alcance, além de fortalecer e disseminar mais sua marca. Uma rede social ou um site potencializam aquele negócio que poderia se manter tradicional
 <li>3) Empresas nativas digitais que tem como core, ou seja, como principal produto ou serviço prestado o digital no centro. O digital não permanece apenas em vendas e marketing, mas é transversal a todos os setores da empresa, não como acessório, mas como motor principal de desenvolvimento em gestão, processos, desenvolvimento de produto, entre outros.</ul><br>
 	<p class="font-article">&nbsp;&nbsp;&nbsp;&nbsp;Se sua empresa quer se transformar digitalmente, comece pelo básico. Utilize canais de vendas e de marketing digitais para traduzir o seu serviço e o seu produto para o digital faça uso de redes sociais e principalmente de um bom site. Uma boa comunicação com seus clientes e aumentar o potencial de alcance e vendas do seu serviço ou produto garantem a longevidade de sua empresa.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;No mercado existem diversas empresas que auxiliam na hospedagem de um bom site na nuvem, que as gerencia e constrói e outras que auxiliam em soluções de comunicação com seu público-alvo nas redes sociais e pelo site. Adaptar o seu negócio à nova era digital é garantir a presença e o crescimento dele no mercado, pois a transformação digital está apenas começando.<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;No mercado existem diversas empresas que auxiliam na hospedagem de um bom site na nuvem, que as gerencia e constrói e outras que auxiliam em soluções de comunicação com seu público-alvo nas redes sociais e pelo site. Adaptar o seu negócio à nova era digital é garantir a presença e o crescimento dele no mercado, pois a transformação digital está apenas começando.<br><br><br>
                     <div class="card">
-                        <a href="../index.php" class="btn-div"><button type="button" class="btn btn-sm btn-primary">Voltar <i class="fa fa-long-arrow-left"></i></button></a>
+                        <a href="../index.php" class="btn-div"><button type="button" class="btn btn-metagam btn-sm btn-primary">Voltar <i class="fa fa-long-arrow-left"></i></button></a>
                     </div>
                     </div>
                 </div>

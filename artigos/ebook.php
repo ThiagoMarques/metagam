@@ -46,20 +46,47 @@ require_once 'includes/header.php';
 
 <body>
     <div class="blog-container">
-        <div class="card cardBlog">
-            <div class="row align-items-center">
-                <div class="col">
-                    <img class="d-block" src="assets/images/notebook.png" alt="Imagem de um notebook">
-                </div>
-                <div class="col">
-                <h2 class="title-post ">Sobre nós</h2><br>
-                <p class="font-article" >A Metagam é um verdadeiro hotel 5 estrelas para o seu site.<p><br>
-                <p class="font-article" >A plataforma é completa para aplicações online. Hospedagem em nuvem, é só uma parte do que fazemos.<p><br>
-                <p class="font-article" >Metagam, a solução ideal para seu negócio digital.</p><br>
+            <div class="card cardBlog">
+                <div class="row align-items-center">
+                    <div class="col-sm-4">
+                        <img class="d-block" src="../assets/images/ebook.jpeg" alt="Imagem de um computador">
+                    </div>
+                    <div class="col">
+                    <h2 class="title-post">Domine sua vida financeira</h2><br>
+                    <p class="font-article" style="font-weight:bold;">Crie seu e-commerce e comece a ganhar dinheiro</p><br>
+
+                    <p class="font-article">&nbsp;&nbsp;&nbsp;&nbsp;Altos índices de desemprego, trabalhos insalubres com aquele chefe mala que você não aguenta mais ou simplesmente o desejo de fazer mais dinheiro.
+                    Este <a href="../index.php">e-book</a> vai te ajudar a conquistar aquela renda que você sente falta no fim do mês.<br>
+
+                    Nós da Metagam queremos ajudar você a alavancar sua vida financeira de uma vez por todas, mas não temos promessas milagrosas. Reunimos um conjunto de conhecimentos riquíssimos neste material, porém coloca-lo em prática exigirá esforço e dedicação. Fazendo isso resultados serão colhidos sem sombra de dúvidas.<br>
+
+                    Nele você encontrará conteúdo sobre:</p>
+                    <ul class="font-article" style="list-style: none;">
+                    <br><li style="font-weight:bold;">1 - Planejamento</li><br>
+                    <li>Definir mercado, nicho e subnicho</li>
+                    <li>Selecionar produtos de alta qualidade e demanda</li>
+                    <li>Precificação</li><br>
+
+                    <li style="font-weight:bold;">2. Venda</li><br>
+                    <li>Anúncios</li>
+                    <li>Títulos</li>
+                    <li>Fotos</li>
+                    <li>Descrições</li>
+                    <li>Promoções</li><br>
+
+
+                    <li style="font-weight:bold;">3. Loja virtual</li>
+                    <li>Configurações</li>
+                    <li>Atração de clientes</li><br><br>
+                    </ul><br><br>
+                    
+                    <div class="card">
+                        <a href="../index.php" class="btn-div"><button type="button" class="btn btn-metagam btn-sm btn-primary">Voltar <i class="fa fa-long-arrow-left"></i></button></a>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
     <footer id="footer" class="py-4 text-white-50">
     <div class="container text-center">

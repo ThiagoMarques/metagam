@@ -48,8 +48,8 @@ require_once 'includes/header.php';
     <div class="blog-container">
             <div class="card cardBlog">
                 <div class="row align-items-center">
-                    <div class="col">
-                        <img class="d-block" src="../assets/images/example1.png" alt="Imagem de exemplo - Computador">
+                    <div class="col-sm-4">
+                        <img class="d-block" src="../assets/images/seguranca_nuvem.png" alt="Imagem segurança na nuvem">
                     </div>
                     <div class="col">
                     <h2 class="title-post text-justify">O que é a nuvem?</h2>
@@ -60,10 +60,10 @@ require_once 'includes/header.php';
 	&nbsp;&nbsp;&nbsp;&nbsp;Para que tanta gente possa armazenar esses dados ao redor do mundo, é necessário que a segurança seja extremamente rigorosa. Além de contar com segurança presencial, com profissionais que garantem a confidencialidade, integridade e disponibilidade dos documentos, ainda ocorre a criptografia dos dados e dos arquivos.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp;No mundo empresarial, a nuvem é um recurso tecnológico indispensável. Colabora para o desenvolvimento da empresa, desde a área de marketing e de vendas, passando por desenvolvimento de produtos e chega até a área de gestão. Independentemente do nível de tecnologia que o negócio utiliza, cada vez mais o mercado exigirá a digitalização dos dados.<br>
 	&nbsp;&nbsp;&nbsp;&nbsp;Em geral os Cloud Hoster ou, também conhecidos como Fornecedores de Hospedagem na Nuvem, forncecem a infraestrutura para o armazenamento, avaliam toda a documentação e realizam a migração para a nuvem. Além disso, existem empresas fornecedoras de hospedagem na nuvem que realizam a gestão garantindo ainda mais segurança, melhorar performance e otimização. Os custos dessa migração e o uso dessa tecnologia na empresa garantem que nada mais se perderá.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;O tempo da papelada acabou. Agora você encontra ferramentas que fazem todo o serviço de organização por você. Garantindo que nenhuma informação seja perdida.Com esses suportes e toda a tecnologia envolvida nessa ferramenta não existe motivos para permanecer no passado.<br></p>
+	&nbsp;&nbsp;&nbsp;&nbsp;O tempo da papelada acabou. Agora você encontra ferramentas que fazem todo o serviço de organização por você. Garantindo que nenhuma informação seja perdida.Com esses suportes e toda a tecnologia envolvida nessa ferramenta não existe motivos para permanecer no passado.<br></p><br><br>
                     
                     <div class="card">
-                    <a href="../index.php" class="btn-div"><button type="button" class="btn btn-sm btn-primary">Voltar <i class="fa fa-long-arrow-left"></i></button></a>
+                    <a href="../index.php" class="btn-div"><button type="button" class="btn btn-metagam btn-sm btn-primary">Voltar <i class="fa fa-long-arrow-left"></i></button></a>
                     </div>
     
                     </div>
