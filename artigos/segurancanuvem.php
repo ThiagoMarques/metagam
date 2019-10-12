@@ -6,7 +6,7 @@ require_once 'includes/header.php';
 <html lang="pt-br">
 
 <head>
-    <title>Blog Metagam</title>
+    <title>O que é a nuvem?</title>
     <meta charset="utf-8" name="keywords" content="Google Drive, Dropbox, iCloud, armazenamento, buscadores, url, metamorfose, blog">
     <!--===============================================================================================-->	
     <link rel="icon" href="../assets/images/icon.png">

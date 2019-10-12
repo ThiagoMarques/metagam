@@ -6,7 +6,7 @@ require_once 'includes/header.php';
 <html lang="pt-br">
 
 <head>
-    <title>Blog Metagam</title>
+    <title>SEO - faça o Google colocar seu site em destaque</title>
     <meta charset="utf-8" name="keywords" content="seo, google, buscadores, url, metamorfose, blog">
     <!--===============================================================================================-->	
     <link rel="icon" href="assets/images/icon.png">

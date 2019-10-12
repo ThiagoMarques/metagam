@@ -7,7 +7,7 @@ require_once 'includes/header.php';
 <html lang="pt-br">
 
 <head>
-    <title>Blog Metagam</title>
+    <title>Fale Conosco</title>
     <meta charset="utf-8">
     <!--===============================================================================================-->	
     <link rel="icon" href="assets/images/icon.png">

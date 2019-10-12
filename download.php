@@ -7,7 +7,7 @@
     }
 ?>
 <html>
-    <title>Titulo do site</title>
+    <title>Ebook</title>
     <head>
         <meta http-equiv="refresh" content=1;url="https://drive.google.com/file/d/1X_duMnSrlUmk0UHCxRcR_qNfS9V4u1KD/view?usp=sharing">
     </head>
