@@ -7,7 +7,7 @@ require_once 'includes/header.php';
 
 <head>
     <title>Blog Metagam</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="keywords" content="negócios, hospedagem, marca, gravada, site, url, metamorfose, blog">
     <!--===============================================================================================-->	
     <link rel="icon" href="assets/images/icon.png">
     <!--===============================================================================================-->	

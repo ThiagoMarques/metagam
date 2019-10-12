@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="utf-8" name="keywords" content="segurança, transformação digital, ganhe dinheiro, e-commerce, nuvem, metamorfose, blog">
 <title>PHPMailer Test Page</title>
 <script type="text/javascript" src="scripts/shCore.js"></script>
 <script type="text/javascript" src="scripts/shBrushPhp.js"></script>

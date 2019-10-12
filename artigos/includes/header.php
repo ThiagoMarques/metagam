@@ -4,7 +4,7 @@
 
 <head>
     <title>Blog Metagam</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="keywords" content="url, metamorfose, blog">
     <!--===============================================================================================-->	
     <link rel="icon" href="../assets/images/icon.png">
     <!--===============================================================================================-->	
